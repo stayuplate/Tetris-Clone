@@ -1,20 +1,73 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Tetris Clone
 
-# Run and deploy your AI Studio app
+![Tetris Gameplay](https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=2070&auto=format&fit=crop)
 
-This contains everything you need to run your app locally.
+A modern, visually appealing recreation of the classic Tetris game built with React, TypeScript, and Tailwind CSS.
 
-View your app in AI Studio: https://ai.studio/apps/19571a21-08dd-4956-8ca2-b4be506817c3
+## Overview
 
-## Run Locally
+This project is a fully functional web-based Tetris clone. It features a sleek, dark-mode aesthetic with neon accents, smooth gameplay mechanics, and classic Tetris rules. 
 
-**Prerequisites:**  Node.js
+## Features
 
+* **Classic Gameplay**: Standard Tetris mechanics including moving, rotating, soft dropping, and hard dropping.
+* **Ghost Piece**: A visual indicator showing exactly where your current piece will land.
+* **Next Piece Preview**: Plan your moves ahead with the next piece display.
+* **Progress Tracking**: Real-time tracking of Score, Level, and Lines cleared.
+* **Progressive Difficulty**: The game speed increases as you clear lines and level up.
+* **Pause Functionality**: Pause and resume your game at any time.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Controls
+
+| Action | Key |
+| :--- | :--- |
+| **Move Left** | `Left Arrow` |
+| **Move Right** | `Right Arrow` |
+| **Rotate Clockwise** | `Up Arrow` or `X` |
+| **Rotate Counter-Clockwise** | `Z` |
+| **Soft Drop** | `Down Arrow` |
+| **Hard Drop** | `Spacebar` |
+| **Pause/Resume** | Click the Pause/Play icon |
+
+## Getting Started
+
+### Prerequisites
+
+Ensure you have Node.js installed on your machine.
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd tetris-clone
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+### Running the Game
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Open your browser and navigate to the local URL provided in your terminal to play the game.
+
+## Tech Stack
+
+* **Framework**: React 19
+* **Language**: TypeScript
+* **Styling**: Tailwind CSS 4
+* **Icons**: Lucide React
+* **Build Tool**: Vite
+
+## License
+
+This project is open-source and available under the MIT License.
