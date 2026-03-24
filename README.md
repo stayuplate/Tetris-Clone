@@ -1,6 +1,6 @@
 # Tetris Clone
 
-![Tetris Gameplay](https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=1920&h=1080&auto=format&fit=crop)
+![Tetris Gameplay](https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=1920&h=600&auto=format&fit=crop)
 
 A modern, visually appealing recreation of the classic Tetris game built with React, TypeScript, and Tailwind CSS.
 
